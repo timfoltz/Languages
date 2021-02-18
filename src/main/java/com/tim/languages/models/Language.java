@@ -30,7 +30,6 @@ public class Language {
 	@Size(min = 5, max= 200)
 	private String creator;
 	@NotNull
-	@Min(100)
 	private Integer version;
 	@Column(updatable=false)
 	@DateTimeFormat(pattern="yyy-MM-dd")
